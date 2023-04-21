@@ -1,0 +1,12 @@
+.info {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    padding: 0;
+  }
+
+  &__list {
+    padding: 0;
+  }
+}

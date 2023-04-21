@@ -1,0 +1,12 @@
+@import '../../shared/styles/_vars';
+
+.info__item {
+  list-style-type:none;
+  text-align: center;
+  line-height: 20px;
+  background-color: $coral;
+  color: $red;
+  border: 0 solid $coral;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
