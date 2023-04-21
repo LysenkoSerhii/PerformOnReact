@@ -1,0 +1,17 @@
+@import '../../shared/styles/_vars';
+
+.start__button {
+  height: 30px;
+  color: $white;
+  font-weight: 600;
+  background-color: $start-button;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: .4s;
+
+  &:hover {
+    background-color: $hover;
+  }
+}
